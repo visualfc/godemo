@@ -1,7 +1,7 @@
 package main
 
-import "github.com/visualfc/godemo"
+import "github.com/visualfc/godemo/cmd/demo"
 
 func main() {
-	println(godemo.Demo())
+	println(demo.Demo())
 }
